@@ -1,11 +1,13 @@
+let countEl = document.getElementById("count-el");
 let count = 0;
-let bonusPoints = 50;
-document.
-bonusPoints 
 
-
-console.log(count);
 
 function increment() {
-    console.log("duck")
+    count = count + 1;
+    countEl.innerText = count;
+    
+}
+
+function save() {
+    console.log(count);
 }
